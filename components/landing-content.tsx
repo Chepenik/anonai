@@ -4,30 +4,30 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const testimonials = [
   {
-    name: "Joel",
+    name: "David Smith ~ in a dream I had", 
+    avatar: "D",
+    title: "Comedian",
+    description: "I've never seen an app generate such hilarious content. My writers are now obsolete!",
+  },
+  {
+    name: "Joe Rogan ~ in a dream I had",
     avatar: "J",
-    title: "Software Engineer",
-    description: "This is the best application I've ever used!",
+    title: "Podcast Host",
+    description: "This app is entirely something else. Never before have I seen an AI with such quick wit and comedic timing. Mind blowing!",
   },
   {
-    name: "Antonio",
-    avatar: "A",
-    title: "Designer",
-    description: "I use this daily for generating new photos!",
+    name: "Elon Musk ~ in a dream I had",
+    avatar: "E",
+    title: "Technoking of Tesla",
+    description: "I'm acquiring this company and integrating their AI into Tesla bots. The future of comedy is algorithms!", 
   },
   {
-    name: "Mark",
-    avatar: "M",
-    title: "CEO",
-    description: "This app has changed my life, cannot imagine working without it!",
-  },
-  {
-    name: "Mary",
-    avatar: "M",
-    title: "CFO",
-    description: "The best in class, definitely worth the premium subscription!",
-  },
-];
+    name: "Patrick Bet-David ~ in a dream I had",
+    avatar: "P",
+    title: "YouTuber",
+    description: "I use this app to come up with viral video ideas. It's responsible for like 30% of my content last month!",
+  }
+]
 
 export const LandingContent = () => {
   return (
